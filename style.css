@@ -39,20 +39,37 @@ a:hover {
 	color:#969696;
 }
 
+table {
+	display: block;
+}
+
 #catalog {
-	margin: 50px;
+	padding-top: 30px;
+	margin-right: 15%;
+	margin-left: 15%;
 }
 
 .cataloglist img {
 	width: 144px;
 	height: 200px;
+	margin-top: 3px;
 }
 
 .cataloglist {
-	width: 100%;
-	background-color: rgba(69,69,69,0.6);
-    border-spacing: 0; 
+    text-align: center;
+	border-spacing: 0 3px;
 }
+
+.cataloglist tr:nth-child(odd) {
+ 	background-color: rgba(96,96,96,0.6);
+	width: 100% !important;
+}
+
+.cataloglist tr:nth-child(even) {
+ 	background-color: rgba(69,69,69,0.6);
+ 	width: 100% !important;
+ }
+
 
 .cataloglist p {
 	line-height: auto;
