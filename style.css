@@ -11,6 +11,16 @@ body {
 	font-size: 10pt;
 }
 
+#title {	
+	font-family: "HelveticaNeueBold";
+	font-size: 12pt;
+}
+
+#header {
+	font-family: HelveticaNeueBold, sans-serif;
+	font-size: 20pt;
+}
+
 .header p {
 	margin-top: 20px;
 	margin-left: 5px;
@@ -25,11 +35,6 @@ body {
 	margin-right: 7px;
 }
 
-#header {
-	font-family: HelveticaNeueBold, sans-serif;
-	font-size: 20pt;
-}
-
 a, a:active, a:visited{
 	text-decoration: none;
 	color: #e8e8e8;
@@ -41,9 +46,6 @@ a:hover {
 
 table {
 	display: block;
-}
-
-#catalog {
 	padding-top: 30px;
 	margin-right: 15%;
 	margin-left: 15%;
@@ -62,21 +64,19 @@ table {
 
 .cataloglist tr:nth-child(odd) {
  	background-color: rgba(96,96,96,0.6);
-	width: 100% !important;
+ 	width: 100%;
 }
 
 .cataloglist tr:nth-child(even) {
  	background-color: rgba(69,69,69,0.6);
- 	width: 100% !important;
  }
-
 
 .cataloglist p {
 	line-height: auto;
 	text-align: left;
 }
 
-#title {	
-	font-family: "HelveticaNeueBold";
-	font-size: 12pt;
+.releasecover {
+	width: 154px; 
+	height: 209px;
 }
