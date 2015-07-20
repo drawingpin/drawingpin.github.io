@@ -30,23 +30,31 @@ body {
 	font-size: 20pt;
 }
 
-a, a:active, a:hover, a:visited{
+a, a:active, a:visited{
 	text-decoration: none;
-	color: #ffffff;
+	color: #e8e8e8;
+}
+
+a:hover {
+	color:#969696;
 }
 
 #catalog {
 	margin: 50px;
 }
 
-.releasecover {
+.cataloglist img {
 	width: 144px;
 	height: 200px;
-	margin: 10;
 }
 
-.releaseinfo {
-	margin-left: 9px;
+.cataloglist {
+	width: 100%;
+	background-color: rgba(69,69,69,0.6);
+    border-spacing: 0; 
+}
+
+.cataloglist p {
 	line-height: auto;
 	text-align: left;
 }
@@ -54,14 +62,4 @@ a, a:active, a:hover, a:visited{
 #title {	
 	font-family: "HelveticaNeueBold";
 	font-size: 12pt;
-}
-
-tr {
-	background-color: rgba(69,69,69,0.8);
-}
-
-.cataloglist {
-	width: 100%;
-	border-collapse:separate; 
-	border-spacing:0 3px;
 }
