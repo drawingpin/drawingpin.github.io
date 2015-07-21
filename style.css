@@ -1,23 +1,26 @@
 @font-face { font-family: HelveticaNeue; src: url("./fonts/HelveticaNeue-Light.otf"); } 
 @font-face { font-family: HelveticaNeueBold; font-weight: bold; src: url("./fonts/HelveticaNeue-Bold.otf");}
 
+@font-face { font-family: SourceSans; src: url("./fonts/SourceSansPro-Light.otf"); } 
+@font-face { font-family: SourceSansBold; font-weight: bold; src: url("./fonts/SourceSansPro-Bold.otf");}
+
 body {
 	background-image: url("./images/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	font-family: HelveticaNeue, sans-serif;
+	font-family: SourceSans, sans-serif;
 	color: #e8e8e8;
 	font-size: 10pt;
 }
 
 #title {	
-	font-family: "HelveticaNeueBold";
+	font-family: SourceSansBold;
 	font-size: 12pt;
 }
 
 #header {
-	font-family: HelveticaNeueBold, sans-serif;
+	font-family: SourceSansBold;
 	font-size: 20pt;
 }
 
