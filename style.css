@@ -70,6 +70,7 @@ table {
 .releaseinfo {
 	line-height: auto;
 	text-align: left;
+	width: 30%;
 }
 
 .releasecover {
