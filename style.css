@@ -27,13 +27,6 @@ body {
 	line-height: 18px;
 }
 
-.header img {
-	width: 75px;
-	height: 59px; 
-	background-color: "transparent";
-	float: left;
-	margin-right: 7px;
-}
 
 a, a:active, a:visited{
 	text-decoration: none;
@@ -47,8 +40,8 @@ a:hover {
 table {
 	display: block;
 	padding-top: 30px;
-	margin-right: 15%;
-	margin-left: 15%;
+	margin: auto;
+	width: 70%;
 }
 
 .cataloglist img {
@@ -64,14 +57,13 @@ table {
 
 .cataloglist tr:nth-child(odd) {
  	background-color: rgba(96,96,96,0.6);
- 	width: 100%;
 }
 
 .cataloglist tr:nth-child(even) {
  	background-color: rgba(69,69,69,0.6);
  }
 
-.cataloglist p {
+.releaseinfo {
 	line-height: auto;
 	text-align: left;
 }
@@ -79,4 +71,23 @@ table {
 .releasecover {
 	width: 154px; 
 	height: 209px;
+}
+
+#logo {
+	width: 75px;
+	height: 59px; 
+	float: left;
+	margin-right: 7px;
+	display: block;
+	background: url("./images/logowhite.png") center top no-repeat;
+	background-size: 100%;
+}
+
+#logo:hover {
+	background: url("./images/logowhitecm.png") center top no-repeat;
+	background-size: 100%;
+}
+
+.hiddenPic {
+	display:none;
 }
