@@ -70,7 +70,6 @@ table {
 .releaseinfo {
 	line-height: auto;
 	text-align: left;
-	width: 30%;
 }
 
 .releasecover {
@@ -84,7 +83,7 @@ table {
     float: left;
     margin-right: 7px;
     display: block;
-    background-image: url("./images/logowhite.png");
+    background-image: url("./images/logos.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100%
