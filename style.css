@@ -41,7 +41,7 @@ a:hover {
 }
 
 table {
-	display: block;
+	display: table;
 	padding-top: 30px;
 	margin: auto;
 	width: 70%;
@@ -77,20 +77,17 @@ table {
 }
 
 #logo {
-	width: 75px;
-	height: 59px; 
-	float: left;
-	margin-right: 7px;
-	display: block;
-	background: url("./images/logowhite.png") center top no-repeat;
-	background-size: 100%;
+    width: 75px;
+    height: 59px; 
+    float: left;
+    margin-right: 7px;
+    display: block;
+    background-image: url("./images/logowhite.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%
 }
 
 #logo:hover {
-	background: url("./images/logowhitecm.png") center top no-repeat;
-	background-size: 100%;
-}
-
-.hiddenPic {
-	display:none;
+    background-position: bottom left;
 }
