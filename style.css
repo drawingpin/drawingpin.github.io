@@ -41,7 +41,6 @@ a:hover {
 }
 
 table {
-	display: block;
 	padding-top: 30px;
 	margin: auto;
 	width: 70%;
@@ -54,7 +53,7 @@ table {
 }
 
 .cataloglist {
-    text-align: center;
+  text-align: center;
 	border-spacing: 0 3px;
 }
 
