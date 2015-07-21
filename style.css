@@ -41,7 +41,10 @@ a:hover {
 }
 
 table {
+<<<<<<< HEAD
 	display: table;
+=======
+>>>>>>> 221498933a3098a4e0204549ca6403a2d23a4f3a
 	padding-top: 30px;
 	margin: auto;
 	width: 70%;
@@ -55,7 +58,7 @@ table {
 }
 
 .cataloglist {
-    text-align: center;
+  text-align: center;
 	border-spacing: 0 3px;
 }
 
@@ -93,8 +96,14 @@ table {
     background-position: bottom left;
 }
 
+<<<<<<< HEAD
 .player {
 	width: 60%; 
 	text-align: center;
 	vertical-align: middle;
 }
+=======
+.hiddenPic {
+	display:none;
+}
+>>>>>>> 221498933a3098a4e0204549ca6403a2d23a4f3a
