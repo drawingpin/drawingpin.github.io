@@ -3,6 +3,7 @@
 
 @font-face { font-family: SourceSans; src: url("./fonts/SourceSansPro-Light.otf"); } 
 @font-face { font-family: SourceSansBold; font-weight: bold; src: url("./fonts/SourceSansPro-Bold.otf");}
+@font-face { font-family: SourceSansSemi; src: url("./fonts/SourceSansPro-Semibold.otf");}
 
 body {
 	background-image: url("./images/background.jpg");
@@ -44,7 +45,7 @@ table {
 	display: table;
 	padding-top: 30px;
 	margin: auto;
-	width: 70%;
+	width: 80%;
 	table-layout: fixed;
 }
 
@@ -97,4 +98,8 @@ table {
 	width: 60%; 
 	text-align: center;
 	vertical-align: middle;
+}
+
+.style2 {
+	font-family: SourceSansSemi;
 }
