@@ -3,7 +3,7 @@
 
 @font-face { font-family: SourceSans; src: url("./fonts/SourceSansPro-Light.otf"); } 
 @font-face { font-family: SourceSansBold; font-weight: bold; src: url("./fonts/SourceSansPro-Bold.otf");}
-@font-face { font-family: SourceSansIt; src: url("./fonts/SourceSansPro-Lightit.otf");}
+@font-face { font-family: SourceSansIt; src: url("./fonts/SourceSansPro-LightIt.otf");}
 
 body {
 	background-image: url("./images/background.jpg");
